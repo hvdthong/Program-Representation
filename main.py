@@ -14,6 +14,12 @@ if __name__ == '__main__':
     # print(len(data))
     # exit()
 
+    path_data = '/media/hvdthong/cd8eddc8-4ee9-44d6-b7a1-52d9d4bd677c/DATA_PROGRAM_REPRESENTATION/latest.csv'
+    data = pd.read_csv(path_data, delimiter=',')
+    print(data.head())
+    print(len(data))
+    exit()
+
     fname = 'latest.csv'
     data = read_file(fname=fname)
     title, data = data[0:1], data[1:]
