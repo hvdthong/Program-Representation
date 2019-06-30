@@ -33,6 +33,7 @@ if __name__ == '__main__':
         row = data.loc[data['pkg_name'] == file]
         new_files.append(row)
         print(len(new_files))
+
     exit()
     apks = [data.loc[data['pkg_name'] == file] for file in files]
     print('apks', len(apks))
