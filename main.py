@@ -15,6 +15,9 @@ if __name__ == '__main__':
     # print(len(data))
     # exit()
 
+    print('hello')
+    exit()
+
     path_files = '/media/hvdthong/cd8eddc8-4ee9-44d6-b7a1-52d9d4bd677c/DATA_PROGRAM_REPRESENTATION/apk_collection'
     files = os.listdir(path_files)
     files = [file.replace('.apk', '') for file in files]
